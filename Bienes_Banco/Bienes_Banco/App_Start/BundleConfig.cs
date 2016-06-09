@@ -22,6 +22,7 @@ namespace Bienes_Banco
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/materialize.min.css",
                       "~/Content/site.css"));
         }
     }
